@@ -310,6 +310,10 @@ img{
     color: var(--dark-color);
 }
 
+.legenda{
+    text-align: center;
+}
+
 /* ===== CONTACT =====*/
 .contact__container{
     row-gap: 2rem;
