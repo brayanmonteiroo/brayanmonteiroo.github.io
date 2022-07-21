@@ -15,7 +15,7 @@
     --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Fonte e tipografia =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +32,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== Margens =====*/
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -159,12 +159,12 @@ img{
     cursor: pointer;
 }
 
-/*=== Show menu ===*/
+/*=== Monstrar menu ===*/
 .show{
     right: 0;
 }
 
-/*Active menu*/
+/*Ativar menu*/
 .active::after{
     position: absolute;
     content: "";
@@ -175,7 +175,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== HOME =====*/
+/*===== HomePage =====*/
 .home{
     position: relative;
     background-color: var(--first-color);
@@ -210,7 +210,7 @@ img{
     width: 295px;
 }
 
-/* ===== ABOUT =====*/
+/* ===== Sobre =====*/
 .about__container{
     justify-items: center;
     row-gap: 2rem;
@@ -249,7 +249,7 @@ img{
     color: var(--first-color);
 }
 
-/* ===== SKILLS =====*/
+/* ===== Habilidades =====*/
 .skills__container{
     row-gap: 2rem;
 }
@@ -274,7 +274,7 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== PORTFOLIO =====*/
+/* ===== Portfólio =====*/
 .portfolio{
     background-color: var(--white-color);
 }
@@ -314,7 +314,7 @@ img{
     text-align: center;
 }
 
-/* ===== CONTACT =====*/
+/* ===== Contato =====*/
 .contact__container{
     row-gap: 2rem;
 }
@@ -481,7 +481,7 @@ img{
     }
 }
 
-/* For tall screens on mobiles y desktop*/
+/* Para telas altas em celulares e desktops*/
 @media screen and (min-height: 721px) {
     .home__container {
         height: 640px;
